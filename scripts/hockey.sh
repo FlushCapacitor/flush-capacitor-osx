@@ -7,7 +7,7 @@ API_ENDPOINT=https://rink.hockeyapp.net/api/2/apps/upload
 
 BUILD_SUBFOLDER=Build/Products/Debug
 APP_PATH=${BUILD_SUBFOLDER}/FlushCapacitor.app
-ZIP=${BUILD_SUBFOLDER)/FlushCapacitor.zip
+ZIP=${BUILD_SUBFOLDER}/FlushCapacitor.zip
 
 zip -r9 $ZIP $APP_PATH
 
