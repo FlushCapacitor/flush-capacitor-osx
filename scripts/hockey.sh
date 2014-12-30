@@ -15,7 +15,7 @@ zip -r9 $ZIP $APP_PATH
 
 $CURL $API_ENDPOINT \
 -H "X-HockeyAppToken: $HA_APP_TOKEN" \
--F ipa="@${ZIP}" \
--F notify=0 \
--F status=2 \
--F tags="${DIST_LIST_NAME}"
+-F "ipa=@$ZIP" \
+-F "notify=0" \
+-F "status=2" \
+-F "tags=${DIST_LIST_NAME}"
