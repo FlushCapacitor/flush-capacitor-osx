@@ -5,8 +5,8 @@ env:
   global:
   - secure: cNqH4o8kEFTJFSO6KGl4FkI+WQffjm5GJ/VApQ4vj680mpkr8AEzUn9lDI5gxznvpIx0pvpagT4oExDpU5Nt1jON6g4Get5tm60X+cHiN01Cuiiy01TXlz0Erky5+IhCO737PoJ6zqVWK+YaX/hqaVpWaVc40zocayu62FkPeos=
 script:
-- xctool -workspace FlushCapacitor.xcworkspace -scheme FlushCapacitor -showBuildSettings -configuration Debug | grep CODESIGNING_FOLDER_PATH
-- xctool -workspace FlushCapacitor.xcworkspace -scheme FlushCapacitor build
+# - xctool -workspace FlushCapacitor.xcworkspace -scheme FlushCapacitor -configuration Debug -showBuildSettings | grep CODESIGNING_FOLDER_PATH
+- xctool -workspace FlushCapacitor.xcworkspace -scheme FlushCapacitor CONFIGURATION_BUILD_DIR=$TRAVIS_BUILD_DIR/Build build
 after_success:
 - ./scripts/hockey.sh develop
 
