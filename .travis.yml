@@ -4,7 +4,7 @@ xcode_scheme: FlushCapacitor
 env:
   global:
   - CONFIGURATION_BUILD_DIR=$TRAVIS_BUILD_DIR/Build
-    secure: cNqH4o8kEFTJFSO6KGl4FkI+WQffjm5GJ/VApQ4vj680mpkr8AEzUn9lDI5gxznvpIx0pvpagT4oExDpU5Nt1jON6g4Get5tm60X+cHiN01Cuiiy01TXlz0Erky5+IhCO737PoJ6zqVWK+YaX/hqaVpWaVc40zocayu62FkPeos=
+  - secure: cNqH4o8kEFTJFSO6KGl4FkI+WQffjm5GJ/VApQ4vj680mpkr8AEzUn9lDI5gxznvpIx0pvpagT4oExDpU5Nt1jON6g4Get5tm60X+cHiN01Cuiiy01TXlz0Erky5+IhCO737PoJ6zqVWK+YaX/hqaVpWaVc40zocayu62FkPeos=
 after_success:
-  ./scripts/hockey.sh develop
+- ./scripts/hockey.sh develop
 
