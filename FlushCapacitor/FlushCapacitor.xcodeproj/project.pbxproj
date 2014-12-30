@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FEFFA9A2C383387CE962917 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD036D944C22F053EE16343C /* libPods.a */; };
+		E918A9BB1A52C2E9002F960F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918A9BA1A52C2E9002F960F /* AppDelegate.swift */; };
+		E918A9BD1A52C2E9002F960F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E918A9BC1A52C2E9002F960F /* Images.xcassets */; };
+		E918A9C01A52C2E9002F960F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918A9BE1A52C2E9002F960F /* MainMenu.xib */; };
+		E918A9CC1A52C2E9002F960F /* FlushCapacitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918A9CB1A52C2E9002F960F /* FlushCapacitorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E918A9C61A52C2E9002F960F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E918A9AD1A52C2E9002F960F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E918A9B41A52C2E9002F960F;
+			remoteInfo = FlushCapacitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BD036D944C22F053EE16343C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E918A9B51A52C2E9002F960F /* FlushCapacitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlushCapacitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E918A9B91A52C2E9002F960F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E918A9BA1A52C2E9002F960F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E918A9BC1A52C2E9002F960F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E918A9BF1A52C2E9002F960F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E918A9C51A52C2E9002F960F /* FlushCapacitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlushCapacitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E918A9CA1A52C2E9002F960F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E918A9CB1A52C2E9002F960F /* FlushCapacitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlushCapacitorTests.swift; sourceTree = "<group>"; };
+		E918A9D51A52C380002F960F /* Swift-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E918A9B21A52C2E9002F960F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEFFA9A2C383387CE962917 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E918A9C21A52C2E9002F960F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A4915A206F41EB6F371E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */,
+				006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A29C798908ABA62598A349B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD036D944C22F053EE16343C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E918A9AC1A52C2E9002F960F = {
+			isa = PBXGroup;
+			children = (
+				E918A9B71A52C2E9002F960F /* FlushCapacitor */,
+				E918A9C81A52C2E9002F960F /* FlushCapacitorTests */,
+				E918A9B61A52C2E9002F960F /* Products */,
+				39A4915A206F41EB6F371E8B /* Pods */,
+				A29C798908ABA62598A349B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E918A9B61A52C2E9002F960F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E918A9B51A52C2E9002F960F /* FlushCapacitor.app */,
+				E918A9C51A52C2E9002F960F /* FlushCapacitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E918A9B71A52C2E9002F960F /* FlushCapacitor */ = {
+			isa = PBXGroup;
+			children = (
+				E918A9BA1A52C2E9002F960F /* AppDelegate.swift */,
+				E918A9BC1A52C2E9002F960F /* Images.xcassets */,
+				E918A9BE1A52C2E9002F960F /* MainMenu.xib */,
+				E918A9B81A52C2E9002F960F /* Supporting Files */,
+			);
+			path = FlushCapacitor;
+			sourceTree = "<group>";
+		};
+		E918A9B81A52C2E9002F960F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E918A9D51A52C380002F960F /* Swift-Bridge.h */,
+				E918A9B91A52C2E9002F960F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E918A9C81A52C2E9002F960F /* FlushCapacitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E918A9CB1A52C2E9002F960F /* FlushCapacitorTests.swift */,
+				E918A9C91A52C2E9002F960F /* Supporting Files */,
+			);
+			path = FlushCapacitorTests;
+			sourceTree = "<group>";
+		};
+		E918A9C91A52C2E9002F960F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E918A9CA1A52C2E9002F960F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E918A9B41A52C2E9002F960F /* FlushCapacitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E918A9CF1A52C2E9002F960F /* Build configuration list for PBXNativeTarget "FlushCapacitor" */;
+			buildPhases = (
+				C7CA4C23585C49093CC4CAB2 /* Check Pods Manifest.lock */,
+				E918A9B11A52C2E9002F960F /* Sources */,
+				E918A9B21A52C2E9002F960F /* Frameworks */,
+				E918A9B31A52C2E9002F960F /* Resources */,
+				47F02251B7173BFEA8B2A39F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlushCapacitor;
+			productName = FlushCapacitor;
+			productReference = E918A9B51A52C2E9002F960F /* FlushCapacitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E918A9C41A52C2E9002F960F /* FlushCapacitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E918A9D21A52C2E9002F960F /* Build configuration list for PBXNativeTarget "FlushCapacitorTests" */;
+			buildPhases = (
+				E918A9C11A52C2E9002F960F /* Sources */,
+				E918A9C21A52C2E9002F960F /* Frameworks */,
+				E918A9C31A52C2E9002F960F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E918A9C71A52C2E9002F960F /* PBXTargetDependency */,
+			);
+			name = FlushCapacitorTests;
+			productName = FlushCapacitorTests;
+			productReference = E918A9C51A52C2E9002F960F /* FlushCapacitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E918A9AD1A52C2E9002F960F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Salsita s.r.o.";
+				TargetAttributes = {
+					E918A9B41A52C2E9002F960F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E918A9C41A52C2E9002F960F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E918A9B41A52C2E9002F960F;
+					};
+				};
+			};
+			buildConfigurationList = E918A9B01A52C2E9002F960F /* Build configuration list for PBXProject "FlushCapacitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E918A9AC1A52C2E9002F960F;
+			productRefGroup = E918A9B61A52C2E9002F960F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E918A9B41A52C2E9002F960F /* FlushCapacitor */,
+				E918A9C41A52C2E9002F960F /* FlushCapacitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E918A9B31A52C2E9002F960F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E918A9BD1A52C2E9002F960F /* Images.xcassets in Resources */,
+				E918A9C01A52C2E9002F960F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E918A9C31A52C2E9002F960F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47F02251B7173BFEA8B2A39F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CA4C23585C49093CC4CAB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E918A9B11A52C2E9002F960F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E918A9BB1A52C2E9002F960F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E918A9C11A52C2E9002F960F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E918A9CC1A52C2E9002F960F /* FlushCapacitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E918A9C71A52C2E9002F960F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E918A9B41A52C2E9002F960F /* FlushCapacitor */;
+			targetProxy = E918A9C61A52C2E9002F960F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E918A9BE1A52C2E9002F960F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E918A9BF1A52C2E9002F960F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E918A9CD1A52C2E9002F960F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E918A9CE1A52C2E9002F960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E918A9D01A52C2E9002F960F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlushCapacitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlushCapacitor/Swift-Bridge.h";
+			};
+			name = Debug;
+		};
+		E918A9D11A52C2E9002F960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlushCapacitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlushCapacitor/Swift-Bridge.h";
+			};
+			name = Release;
+		};
+		E918A9D31A52C2E9002F960F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlushCapacitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlushCapacitor.app/Contents/MacOS/FlushCapacitor";
+			};
+			name = Debug;
+		};
+		E918A9D41A52C2E9002F960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlushCapacitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlushCapacitor.app/Contents/MacOS/FlushCapacitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E918A9B01A52C2E9002F960F /* Build configuration list for PBXProject "FlushCapacitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E918A9CD1A52C2E9002F960F /* Debug */,
+				E918A9CE1A52C2E9002F960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E918A9CF1A52C2E9002F960F /* Build configuration list for PBXNativeTarget "FlushCapacitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E918A9D01A52C2E9002F960F /* Debug */,
+				E918A9D11A52C2E9002F960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E918A9D21A52C2E9002F960F /* Build configuration list for PBXNativeTarget "FlushCapacitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E918A9D31A52C2E9002F960F /* Debug */,
+				E918A9D41A52C2E9002F960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E918A9AD1A52C2E9002F960F /* Project object */;
+}
