@@ -6,7 +6,7 @@ CURL=curl
 API_ENDPOINT=https://rink.hockeyapp.net/api/2/apps/upload
 
 pwd
-BUILD_SUBFOLDER=${TRAVIS_BUILD_DIR}/Build/Products/Debug
+BUILD_SUBFOLDER=${TRAVIS_BUILD_DIR}/Build
 echo $BUILD_SUBFOLDER
 APP_PATH=${BUILD_SUBFOLDER}/FlushCapacitor.app
 ZIP=${BUILD_SUBFOLDER}/FlushCapacitor.zip
