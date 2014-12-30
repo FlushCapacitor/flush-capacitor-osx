@@ -1,4 +1,5 @@
 language: objective-c
-xcode_project: FlushCapacitor/FlushCapacitor.xcodeproj
+#xcode_project: FlushCapacitor/FlushCapacitor.xcodeproj
+xcode_workspace: FlushCapacitor.workspace
 xcode_scheme: FlushCapacitor
 
