@@ -11,6 +11,7 @@ ZIP=${BUILD_SUBFOLDER}/FlushCapacitor.app.zip
 
 zip -r9 $ZIP $APP_PATH
 
+ls -al $BUILD_SUBFOLDER
 # HA_APP_TOKEN was secured by `travis encrypt` stored in .travis.yml
 
 $CURL $API_ENDPOINT \
