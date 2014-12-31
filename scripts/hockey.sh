@@ -2,7 +2,7 @@
 
 DIST_LIST_NAME=$1
 
-CURL=curl -v
+CURL="curl -v"
 API_ENDPOINT=https://rink.hockeyapp.net/api/2/apps/upload
 
 BUILD_SUBFOLDER=${TRAVIS_BUILD_DIR}/Build
