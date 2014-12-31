@@ -6,10 +6,11 @@ CURL="curl -v"
 API_ENDPOINT=https://rink.hockeyapp.net/api/2/apps/upload
 
 BUILD_SUBFOLDER=${TRAVIS_BUILD_DIR}/Build
-APP_PATH=${BUILD_SUBFOLDER}/FlushCapacitor.app
 ZIP=${BUILD_SUBFOLDER}/FlushCapacitor.app.zip
 
-zip -r9 $ZIP $APP_PATH
+pushd $BUILD_SUBFOLDER
+zip -r9 $ZIP FlushCapacitor.app
+popd
 
 ls -al $BUILD_SUBFOLDER
 # HA_APP_TOKEN was secured by `travis encrypt` stored in .travis.yml
