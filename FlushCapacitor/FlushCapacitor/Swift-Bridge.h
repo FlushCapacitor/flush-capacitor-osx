@@ -15,7 +15,7 @@
  exactly the same way as "Info.plist file" setting, with the same path relation
 */
 
-#include "Reachability.h"
-#include "SRWebSocket.h"
+#include <Reachability/Reachability.h>
+#include <SocketRocket/SRWebSocket.h>
 
 #endif

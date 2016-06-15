@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FEFFA9A2C383387CE962917 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD036D944C22F053EE16343C /* libPods.a */; };
+		358E3C402551C24AE3BDA452 /* Pods_FlushCapacitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3E1D509872B35ECDA75CDB /* Pods_FlushCapacitorTests.framework */; };
+		9EBA7A3B648058EE47796960 /* Pods_FlushCapacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCDA944E31A68022B634E41 /* Pods_FlushCapacitor.framework */; };
 		E918A9BB1A52C2E9002F960F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918A9BA1A52C2E9002F960F /* AppDelegate.swift */; };
 		E918A9BD1A52C2E9002F960F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E918A9BC1A52C2E9002F960F /* Images.xcassets */; };
 		E918A9C01A52C2E9002F960F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918A9BE1A52C2E9002F960F /* MainMenu.xib */; };
@@ -26,8 +27,14 @@
 
 /* Begin PBXFileReference section */
 		006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1CCDA944E31A68022B634E41 /* Pods_FlushCapacitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlushCapacitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E1D509872B35ECDA75CDB /* Pods_FlushCapacitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlushCapacitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DCDD43FC135B91DFBF7E40 /* Pods-FlushCapacitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlushCapacitorTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FlushCapacitorTests/Pods-FlushCapacitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C94B4476005C8ACFBF600A1 /* Pods-FlushCapacitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlushCapacitor.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FlushCapacitor/Pods-FlushCapacitor.debug.xcconfig"; sourceTree = "<group>"; };
 		A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A854DCEA786C13812F607212 /* Pods-FlushCapacitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlushCapacitorTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FlushCapacitorTests/Pods-FlushCapacitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD036D944C22F053EE16343C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD81A1B6EA38300964D526D9 /* Pods-FlushCapacitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlushCapacitor.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FlushCapacitor/Pods-FlushCapacitor.release.xcconfig"; sourceTree = "<group>"; };
 		E918A9B51A52C2E9002F960F /* FlushCapacitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlushCapacitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E918A9B91A52C2E9002F960F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E918A9BA1A52C2E9002F960F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FEFFA9A2C383387CE962917 /* libPods.a in Frameworks */,
+				9EBA7A3B648058EE47796960 /* Pods_FlushCapacitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358E3C402551C24AE3BDA452 /* Pods_FlushCapacitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,10 @@
 			children = (
 				A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */,
 				006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */,
+				9C94B4476005C8ACFBF600A1 /* Pods-FlushCapacitor.debug.xcconfig */,
+				DD81A1B6EA38300964D526D9 /* Pods-FlushCapacitor.release.xcconfig */,
+				73DCDD43FC135B91DFBF7E40 /* Pods-FlushCapacitorTests.debug.xcconfig */,
+				A854DCEA786C13812F607212 /* Pods-FlushCapacitorTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				BD036D944C22F053EE16343C /* libPods.a */,
+				1CCDA944E31A68022B634E41 /* Pods_FlushCapacitor.framework */,
+				4E3E1D509872B35ECDA75CDB /* Pods_FlushCapacitorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,6 +158,7 @@
 				E918A9B21A52C2E9002F960F /* Frameworks */,
 				E918A9B31A52C2E9002F960F /* Resources */,
 				47F02251B7173BFEA8B2A39F /* Copy Pods Resources */,
+				25D7A254C2E67745D5864B59 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E918A9D21A52C2E9002F960F /* Build configuration list for PBXNativeTarget "FlushCapacitorTests" */;
 			buildPhases = (
+				94D7328B0C7C5F716F56A56E /* Check Pods Manifest.lock */,
 				E918A9C11A52C2E9002F960F /* Sources */,
 				E918A9C21A52C2E9002F960F /* Frameworks */,
 				E918A9C31A52C2E9002F960F /* Resources */,
+				BEB5DC7C4EAEF23D9356DF18 /* Embed Pods Frameworks */,
+				101FE1B45A55AE9A3FD41BAD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +196,7 @@
 		E918A9AD1A52C2E9002F960F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Salsita s.r.o.";
 				TargetAttributes = {
@@ -229,6 +248,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		101FE1B45A55AE9A3FD41BAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FlushCapacitorTests/Pods-FlushCapacitorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D7A254C2E67745D5864B59 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FlushCapacitor/Pods-FlushCapacitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		47F02251B7173BFEA8B2A39F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,7 +290,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FlushCapacitor/Pods-FlushCapacitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D7328B0C7C5F716F56A56E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB5DC7C4EAEF23D9356DF18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FlushCapacitorTests/Pods-FlushCapacitorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7CA4C23585C49093CC4CAB2 /* Check Pods Manifest.lock */ = {
@@ -379,7 +458,7 @@
 		};
 		E918A9D01A52C2E9002F960F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A09CCC771040D801760BD9F6 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9C94B4476005C8ACFBF600A1 /* Pods-FlushCapacitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -393,7 +472,7 @@
 		};
 		E918A9D11A52C2E9002F960F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006F21E3CCAF38F47DDE8BEA /* Pods.release.xcconfig */;
+			baseConfigurationReference = DD81A1B6EA38300964D526D9 /* Pods-FlushCapacitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -407,6 +486,7 @@
 		};
 		E918A9D31A52C2E9002F960F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DCDD43FC135B91DFBF7E40 /* Pods-FlushCapacitorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -427,6 +507,7 @@
 		};
 		E918A9D41A52C2E9002F960F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A854DCEA786C13812F607212 /* Pods-FlushCapacitorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;

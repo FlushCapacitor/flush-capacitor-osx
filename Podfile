@@ -1,5 +1,18 @@
-source 'https://github.com/CocoaPods/Specs.git'
 platform :osx, '10.8'
 xcodeproj 'FlushCapacitor/FlushCapacitor.xcodeproj'
-pod 'Reachability' # tonymillion's ARC modernized
-pod 'SocketRocket'
+
+def all_pods
+  pod 'Reachability' # tonymillion's ARC modernized
+  pod 'SocketRocket'
+end
+
+target 'FlushCapacitor' do
+  all_pods
+  use_frameworks!
+end
+
+target 'FlushCapacitorTests' do
+  all_pods
+  use_frameworks!
+end
+
