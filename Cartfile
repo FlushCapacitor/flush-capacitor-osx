@@ -1,0 +1,4 @@
+github "daltoniam/Starscream" ~> 2.0.0
+# Reachability has releases but the newest is years behind master
+github "tonymillion/Reachability" "master"
+github "ReactiveX/RxSwift" ~> 3.0

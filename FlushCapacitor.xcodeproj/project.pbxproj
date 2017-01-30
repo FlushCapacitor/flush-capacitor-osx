@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9BEC1611E3F602200F650E0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEC1601E3F602200F650E0 /* ViewModel.swift */; };
+		E9DD61BA1E3CC8D000259841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61B91E3CC8D000259841 /* AppDelegate.swift */; };
+		E9DD61BC1E3CC8D000259841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DD61BB1E3CC8D000259841 /* Assets.xcassets */; };
+		E9DD61BF1E3CC8D000259841 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DD61BD1E3CC8D000259841 /* MainMenu.xib */; };
+		E9DD61CA1E3CC8D000259841 /* FlushCapacitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61C91E3CC8D000259841 /* FlushCapacitorTests.swift */; };
+		E9DD61DE1E3CCB1100259841 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD61DB1E3CCB1100259841 /* Reachability.framework */; };
+		E9DD61DF1E3CCB1100259841 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD61DC1E3CCB1100259841 /* RxSwift.framework */; };
+		E9DD61E01E3CCB1100259841 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD61DD1E3CCB1100259841 /* Starscream.framework */; };
+		E9DD61E31E3CCB6E00259841 /* StateChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61E11E3CCB6E00259841 /* StateChannel.swift */; };
+		E9DD61E41E3CCB6E00259841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61E21E3CCB6E00259841 /* ViewController.swift */; };
+		E9DD61E61E3CCBF300259841 /* Reachability.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD61DB1E3CCB1100259841 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9DD61E71E3CCBF300259841 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD61DC1E3CCB1100259841 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9DD61E81E3CCBF300259841 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD61DD1E3CCB1100259841 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9DD61F91E3CD25E00259841 /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61F81E3CD25E00259841 /* StateModel.swift */; };
+		E9DD61FB1E3D314000259841 /* MenuValueEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD61FA1E3D314000259841 /* MenuValueEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DD61C61E3CC8D000259841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DD61AE1E3CC8D000259841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DD61B51E3CC8D000259841;
+			remoteInfo = FlushCapacitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9DD61E51E3CCBE200259841 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E9DD61E61E3CCBF300259841 /* Reachability.framework in CopyFiles */,
+				E9DD61E71E3CCBF300259841 /* RxSwift.framework in CopyFiles */,
+				E9DD61E81E3CCBF300259841 /* Starscream.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E9BEC1601E3F602200F650E0 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E9DD61B61E3CC8D000259841 /* FlushCapacitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlushCapacitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DD61B91E3CC8D000259841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9DD61BB1E3CC8D000259841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9DD61BE1E3CC8D000259841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9DD61C01E3CC8D000259841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DD61C51E3CC8D000259841 /* FlushCapacitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlushCapacitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DD61C91E3CC8D000259841 /* FlushCapacitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlushCapacitorTests.swift; sourceTree = "<group>"; };
+		E9DD61CB1E3CC8D000259841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DD61DB1E3CCB1100259841 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/Mac/Reachability.framework; sourceTree = "<group>"; };
+		E9DD61DC1E3CCB1100259841 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		E9DD61DD1E3CCB1100259841 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
+		E9DD61E11E3CCB6E00259841 /* StateChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateChannel.swift; sourceTree = "<group>"; };
+		E9DD61E21E3CCB6E00259841 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9DD61ED1E3CD1C200259841 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9DD61F01E3CD1EE00259841 /* carthage-bootstrap.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "carthage-bootstrap.sh"; path = "scripts/carthage-bootstrap.sh"; sourceTree = "<group>"; };
+		E9DD61F11E3CD1EE00259841 /* hockey.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = hockey.sh; path = scripts/hockey.sh; sourceTree = "<group>"; };
+		E9DD61F41E3CD1F800259841 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E9DD61F51E3CD1F800259841 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		E9DD61F81E3CD25E00259841 /* StateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		E9DD61FA1E3D314000259841 /* MenuValueEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuValueEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DD61B31E3CC8D000259841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD61DE1E3CCB1100259841 /* Reachability.framework in Frameworks */,
+				E9DD61DF1E3CCB1100259841 /* RxSwift.framework in Frameworks */,
+				E9DD61E01E3CCB1100259841 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DD61C21E3CC8D000259841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DD61AD1E3CC8D000259841 = {
+			isa = PBXGroup;
+			children = (
+				E9DD61ED1E3CD1C200259841 /* README.md */,
+				E9DD61EF1E3CD1C900259841 /* Build */,
+				E9DD61B81E3CC8D000259841 /* FlushCapacitor */,
+				E9DD61C81E3CC8D000259841 /* FlushCapacitorTests */,
+				E9DD61B71E3CC8D000259841 /* Products */,
+				E9DD61DA1E3CCB1100259841 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DD61B71E3CC8D000259841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD61B61E3CC8D000259841 /* FlushCapacitor.app */,
+				E9DD61C51E3CC8D000259841 /* FlushCapacitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DD61B81E3CC8D000259841 /* FlushCapacitor */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD61B91E3CC8D000259841 /* AppDelegate.swift */,
+				E9DD61E11E3CCB6E00259841 /* StateChannel.swift */,
+				E9DD61F81E3CD25E00259841 /* StateModel.swift */,
+				E9BEC1601E3F602200F650E0 /* ViewModel.swift */,
+				E9DD61E21E3CCB6E00259841 /* ViewController.swift */,
+				E9DD61FA1E3D314000259841 /* MenuValueEditor.swift */,
+				E9DD61BB1E3CC8D000259841 /* Assets.xcassets */,
+				E9DD61BD1E3CC8D000259841 /* MainMenu.xib */,
+				E9DD61C01E3CC8D000259841 /* Info.plist */,
+			);
+			path = FlushCapacitor;
+			sourceTree = "<group>";
+		};
+		E9DD61C81E3CC8D000259841 /* FlushCapacitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD61C91E3CC8D000259841 /* FlushCapacitorTests.swift */,
+				E9DD61CB1E3CC8D000259841 /* Info.plist */,
+			);
+			path = FlushCapacitorTests;
+			sourceTree = "<group>";
+		};
+		E9DD61DA1E3CCB1100259841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD61DB1E3CCB1100259841 /* Reachability.framework */,
+				E9DD61DC1E3CCB1100259841 /* RxSwift.framework */,
+				E9DD61DD1E3CCB1100259841 /* Starscream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DD61EF1E3CD1C900259841 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD61F41E3CD1F800259841 /* Cartfile */,
+				E9DD61F51E3CD1F800259841 /* Cartfile.resolved */,
+				E9DD61F01E3CD1EE00259841 /* carthage-bootstrap.sh */,
+				E9DD61F11E3CD1EE00259841 /* hockey.sh */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DD61B51E3CC8D000259841 /* FlushCapacitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DD61CE1E3CC8D000259841 /* Build configuration list for PBXNativeTarget "FlushCapacitor" */;
+			buildPhases = (
+				E9DD61B21E3CC8D000259841 /* Sources */,
+				E9DD61B31E3CC8D000259841 /* Frameworks */,
+				E9DD61B41E3CC8D000259841 /* Resources */,
+				E9DD61E51E3CCBE200259841 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlushCapacitor;
+			productName = FlushCapacitor;
+			productReference = E9DD61B61E3CC8D000259841 /* FlushCapacitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9DD61C41E3CC8D000259841 /* FlushCapacitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DD61D11E3CC8D000259841 /* Build configuration list for PBXNativeTarget "FlushCapacitorTests" */;
+			buildPhases = (
+				E9DD61C11E3CC8D000259841 /* Sources */,
+				E9DD61C21E3CC8D000259841 /* Frameworks */,
+				E9DD61C31E3CC8D000259841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DD61C71E3CC8D000259841 /* PBXTargetDependency */,
+			);
+			name = FlushCapacitorTests;
+			productName = FlushCapacitorTests;
+			productReference = E9DD61C51E3CC8D000259841 /* FlushCapacitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DD61AE1E3CC8D000259841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Salsita s.r.o.";
+				TargetAttributes = {
+					E9DD61B51E3CC8D000259841 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5YAZE4MX2R;
+						ProvisioningStyle = Automatic;
+					};
+					E9DD61C41E3CC8D000259841 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5YAZE4MX2R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9DD61B51E3CC8D000259841;
+					};
+				};
+			};
+			buildConfigurationList = E9DD61B11E3CC8D000259841 /* Build configuration list for PBXProject "FlushCapacitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9DD61AD1E3CC8D000259841;
+			productRefGroup = E9DD61B71E3CC8D000259841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DD61B51E3CC8D000259841 /* FlushCapacitor */,
+				E9DD61C41E3CC8D000259841 /* FlushCapacitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DD61B41E3CC8D000259841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD61BC1E3CC8D000259841 /* Assets.xcassets in Resources */,
+				E9DD61BF1E3CC8D000259841 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DD61C31E3CC8D000259841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DD61B21E3CC8D000259841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD61BA1E3CC8D000259841 /* AppDelegate.swift in Sources */,
+				E9DD61E41E3CCB6E00259841 /* ViewController.swift in Sources */,
+				E9DD61E31E3CCB6E00259841 /* StateChannel.swift in Sources */,
+				E9DD61F91E3CD25E00259841 /* StateModel.swift in Sources */,
+				E9BEC1611E3F602200F650E0 /* ViewModel.swift in Sources */,
+				E9DD61FB1E3D314000259841 /* MenuValueEditor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DD61C11E3CC8D000259841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD61CA1E3CC8D000259841 /* FlushCapacitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DD61C71E3CC8D000259841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DD61B51E3CC8D000259841 /* FlushCapacitor */;
+			targetProxy = E9DD61C61E3CC8D000259841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9DD61BD1E3CC8D000259841 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DD61BE1E3CC8D000259841 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DD61CC1E3CC8D000259841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9DD61CD1E3CC8D000259841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E9DD61CF1E3CC8D000259841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YAZE4MX2R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = FlushCapacitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salsitasoft.FlushCapacitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9DD61D01E3CC8D000259841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YAZE4MX2R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = FlushCapacitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salsitasoft.FlushCapacitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E9DD61D21E3CC8D000259841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YAZE4MX2R;
+				INFOPLIST_FILE = FlushCapacitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salsitasoft.FlushCapacitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlushCapacitor.app/Contents/MacOS/FlushCapacitor";
+			};
+			name = Debug;
+		};
+		E9DD61D31E3CC8D000259841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YAZE4MX2R;
+				INFOPLIST_FILE = FlushCapacitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salsitasoft.FlushCapacitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlushCapacitor.app/Contents/MacOS/FlushCapacitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DD61B11E3CC8D000259841 /* Build configuration list for PBXProject "FlushCapacitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DD61CC1E3CC8D000259841 /* Debug */,
+				E9DD61CD1E3CC8D000259841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DD61CE1E3CC8D000259841 /* Build configuration list for PBXNativeTarget "FlushCapacitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DD61CF1E3CC8D000259841 /* Debug */,
+				E9DD61D01E3CC8D000259841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DD61D11E3CC8D000259841 /* Build configuration list for PBXNativeTarget "FlushCapacitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DD61D21E3CC8D000259841 /* Debug */,
+				E9DD61D31E3CC8D000259841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DD61AE1E3CC8D000259841 /* Project object */;
+}
